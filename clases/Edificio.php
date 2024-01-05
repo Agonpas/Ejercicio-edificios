@@ -42,6 +42,6 @@
         $costeLimpiezaMes = $costeLimpiezaDia * 30;
         echo "El coste de limpieza de " . $this->nombre . " es de " . $costeLimpiezaMes . " euros al mes. El tiempo de limpieza empleado al día es de: " . $tiempoLimpiezaDia . " horas para lo cual necesitamos " . $numeroEmpleadosLimpieza . " empleados de limpieza al día" . PHP_EOL;
     }
-    abstract function CalcularCosteVigilancia();
+    abstract function calcularCosteVigilancia();
  }
 ?>

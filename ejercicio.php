@@ -41,14 +41,15 @@ echo PHP_EOL;
 echo $hotel1;
 echo PHP_EOL;
 /* Calculos del coste de limpieza*/
-$cine1->CalcularCosteVigilancia();
-$hospital1->CalcularCosteVigilancia();
-$hotel1->CalcularCosteVigilancia();
+$cine1->calcularCosteVigilancia();
+$hospital1->calcularCosteVigilancia();
+$hotel1->calcularCosteVigilancia();
 /*Uso método repartir comidas*/
 echo PHP_EOL;
 $hospital1->repartirComidas();
 echo PHP_EOL;
 $cine1->proyectarSesion();
-
+echo PHP_EOL;
+$hotel1->calcularServicioHabitaciones();
 
 ?>
