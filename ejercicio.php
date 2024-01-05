@@ -47,5 +47,8 @@ $hotel1->CalcularCosteVigilancia();
 /*Uso método repartir comidas*/
 echo PHP_EOL;
 $hospital1->repartirComidas();
+echo PHP_EOL;
+$cine1->proyectarSesion();
+
 
 ?>
